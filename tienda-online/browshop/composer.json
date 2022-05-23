@@ -1,0 +1,26 @@
+{
+    "name": "peliculas/browshop",
+    "description": "creación de una tienda online",
+    "type": "project",
+    "license": "MIT",
+    "authors":[
+        {
+            "name": "Adriel Fondeur",
+            "email": "2180011@ipisa.edu.do"
+        },
+        {
+            "name": "Damarys Gómez",
+            "email": "2180015@ipisa.edu.do"
+
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "peliculashop\\":"src/"
+        }
+    
+    }
+
+}
