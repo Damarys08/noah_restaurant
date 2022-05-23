@@ -66,7 +66,7 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])){
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="../index.html">Inicio</a>
-          <a class="navbar-brand" href="index.php">Noah Restaurant</a>
+          <a class="navbar-brand" href="index.php" style= "	padding: 20px 10px 10px 24em ; ">Noah Restaurant</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
