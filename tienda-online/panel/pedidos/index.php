@@ -40,6 +40,9 @@
             <li>
               <a href="../peliculas/index.php" class="btn">Productos</a>
             </li>
+            <li>
+              <a href="https://www.tidio.com/panel/conversations" class="btn">Chat en vivo</a>
+            </li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
                 <ul class="dropdown-menu">
