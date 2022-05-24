@@ -43,7 +43,7 @@
                     </div>
                     <div class="panel-body">
                         <p class="text-center">
-                            <img src="../cinecss2/imagenes/cw.jpg" width="250" alt="">
+                            <img src="../cinecss2/imagenes/noah.png" width="275" alt="">
                         </p>
                         <div class="form-group">
                             <label>Usuario</label>
