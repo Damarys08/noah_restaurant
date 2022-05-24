@@ -36,7 +36,7 @@
               <a href="../pedidos/index.php" class="btn">Pedidos</a>
             </li> 
             <li class="active">
-              <a href="index.php" class="btn">peliculas</a>
+              <a href="index.php" class="btn">Producto</a>
             </li>
             <li>
               <a href="https://www.tidio.com/panel/conversations" class="btn">Chat en vivo</a>
