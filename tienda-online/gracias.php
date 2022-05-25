@@ -32,7 +32,7 @@ require 'funciones.php';
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <a class="navbar-brand" href="../index.php">Inicio</a>
           <a class="navbar-brand" href="index.php">Noah Restaurant</a>
 
         </div>

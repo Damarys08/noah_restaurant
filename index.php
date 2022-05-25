@@ -1,3 +1,12 @@
+<?php
+include("conexion.php");
+$critica = "SELECT * FROM critica";
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,7 +15,6 @@
  <!-- favicon -->
  <link rel="icon" href="images/favicon.png.ico">
 
- <!-- Materialize - CS  -->
 
 <!-- <link rel="stylesheet" href="materialize/css/materialize.min.css"> -->
      <meta charset="UTF-8">
@@ -32,7 +40,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
 
-            <a class="navbar-brand" href="index.html">Noah Restaurant</a>
+            <a class="navbar-brand" href="index.php">Noah Restaurant</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
