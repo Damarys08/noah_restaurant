@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -73,4 +74,7 @@
     <script src="../cinecss2/js/bootstrap.min.js"></script>
 
   </body>
+  <?php
+
+?>
 </html>
