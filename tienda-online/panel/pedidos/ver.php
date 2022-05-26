@@ -33,7 +33,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
-          <li><a href="tabla_critica/index.html" class="btn">CrÍticas</a>
+          <li><a href="../tabla_critica/index.html" class="btn">CrÍticas</a>
             </li>
             <li class="active">
               <a href="index.php" class="btn">Pedidos</a>
