@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Noah Restaurant
+          <a class="navbar-brand" href="roles.php">Noah Restaurant
 </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
@@ -96,7 +96,7 @@
                       <td><?php print $item['fecha']?></td>
                        
                       <td class="text-center">
-                        <a href="pedidos/ver.php?id=<?php print $item['id'] ?>" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-eye-open"></span></a>
+                        <a href="ver.php?id=<?php print $item['id'] ?>" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-eye-open"></span></a>
                         
                       </td>
                     
