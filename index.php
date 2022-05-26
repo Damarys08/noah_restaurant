@@ -54,6 +54,9 @@ $critica = "SELECT * FROM critica";
                         <a href="#feature" class="nav-link smoothScroll">Horarios</a>
                     </li>
 
+
+
+                    
                     <li class="nav-item">
                         <a href="#about" class="nav-link smoothScroll">Sobre Nosotros</a>
                     </li>
