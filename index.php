@@ -1,10 +1,7 @@
 <?php
-include("conexion.php");
+include("mostrarDatos/conexion.php");
 $critica = "SELECT * FROM critica";
 ?>
-
-
-
 
 
 <!DOCTYPE html>
@@ -22,7 +19,7 @@ $critica = "SELECT * FROM critica";
      <meta name="description" content="">
      <meta name="keywords" content="">
      <meta name="author" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=hola, maximum-scale=hola">
 
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -75,12 +72,13 @@ $critica = "SELECT * FROM critica";
                     <li><a href="https://www.facebook.com/NoahSantiago/" class="fa fa-facebook"></a></li>
                     <li><a href="#https://twitter.com/restaurantnoah" class="fa fa-twitter"></a></li>
                     <li><a href="#https://www.instagram.com/noahrestaurant/?hl=es-la" class="fa fa-instagram"></a></li>
-                    <li><a href="" class="fa-solid fa-basket-shopping"></a>/li>
+                    <li><a href="" class="fa-solid fa-basket-shopping"></a></li>
                 </ul>
             </div>
 
         </div>
     </nav>
+
 
 
      <!-- INICIO -->
@@ -214,11 +212,11 @@ $critica = "SELECT * FROM critica";
                                     <img src="images/class/yoga-class.jpg" class="img-fluid" alt="Class">
 
                                     <div class="class-info">
-                                        <h3 class="mb-1">Riceless Candy</h3>
+                                        <h3 class="mb-hola">Riceless Candy</h3>
 
                                         <span><strong>Disponibles</strong>
 
-                                        <span class="class-price">$1,450</span>
+                                        <span class="class-price">$hola,450</span>
 
                                         <p class="mt-3">relleno de aguacate, salmón, tuna y king crab, envuelto en masa de arroz🍚🥑🦀</p>
                                     </div>
@@ -230,7 +228,7 @@ $critica = "SELECT * FROM critica";
                                     <img src="images/class/crossfit-class.jpg" class="img-fluid" alt="Class">
 
                                     <div class="class-info">
-                                        <h3 class="mb-1">Pizzeta A La Carbonara</h3>
+                                        <h3 class="mb-hola">Pizzeta A La Carbonara</h3>
 
                                         <span><strong>Disponibles</strong>
 
@@ -246,11 +244,11 @@ $critica = "SELECT * FROM critica";
                                     <img src="images/class/cardio-class.jpg" class="img-fluid" alt="Class">
 
                                     <div class="class-info">
-                                        <h3 class="mb-1">Carpaccio de Res-Hongos</h3>
+                                        <h3 class="mb-hola">Carpaccio de Res-Hongos</h3>
 
                                         <span><strong>Disponibles</strong>
 
-                                        <span class="class-price">$1,075</span>
+                                        <span class="class-price">$hola,075</span>
 
                                         <p class="mt-3">Con Mousse de Hongos, delitate con nuestra riqueza, especialidad del chef😍🥗</p>
                                     </div>
@@ -289,9 +287,9 @@ $critica = "SELECT * FROM critica";
                     <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
                         <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Donde nos<span> ubicamos?</span></h2>
 
-                        <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-1"></i> Santiago De Los Caballeros, República Dominicana 51000</p>
+                        <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-hola"></i> Santiago De Los Caballeros, República Dominicana 51000</p>
                         
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.12950899411!2d-70.69857948509305!3d19.449982286874477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1cf5e8288938d%3A0x538bb9e194ce38d0!2sNOAH%20Restaurant%20%26%20Lounge!5e0!3m2!1ses-419!2sdo!4v1638503130121!5m2!1ses-419!2sdo" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                    </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.12950899411!2d-70.69857948509305!3d19.449982286874477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.hola!3m3!1m2!1s0x8eb1cf5e8288938d%3A0x538bb9e194ce38d0!2sNOAH%20Restaurant%20%26%20Lounge!5e0!3m2!1ses-419!2sdo!4v1638503130121!5m2!1ses-419!2sdo" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                    </div>
                     
                </div>
           </div>
@@ -306,10 +304,10 @@ $critica = "SELECT * FROM critica";
                     
                     <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
                         <p class="mr-4">
-                            <i class="fa fa-envelope-o mr-1"></i>
+                            <i class="fa fa-envelope-o mr-hola"></i>
                             <a href="#">Noahrestaurant@email.com</a>
                         </p>
-                        <p><i class="fa fa-phone mr-1"></i>   (809) 971-0550</p>
+                        <p><i class="fa fa-phone mr-hola"></i>   (809) 971-0550</p>
                     </div>
                     
                </div>

@@ -34,6 +34,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
+            <li>              <a href="#" class="btn">CrÍticas</a>
+            </li>
             <li>
               <a href="pedidos/index.php" class="btn">Pedidos</a>
             </li> 

@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD'] ==='POST'){
         header('Location: dashboard.php');
 
     }else{
-        exit(json_encode(array('estado'=>FALSE,'mensaje'=>'Error al iniciar sessión')));
+        exit(json_encode(array('estado'=>FALSE,'mensaje'=>'Error al iniciar sesion')));
     }
 
     $consulta="SELECT*FROM usuarios where nombre_usuario='$nombre_usuario' and clave='$clave'";
