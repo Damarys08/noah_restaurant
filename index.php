@@ -251,7 +251,7 @@ $critica = "SELECT * FROM critica";
 
                                         <span><strong>Disponibles</strong>
 
-                                        <span class="class-price">$hola,075</span>
+                                        <span class="class-price">$100,075</span>
 
                                         <p class="mt-3">Con Mousse de Hongos, delitate con nuestra riqueza, especialidad del chef😍🥗</p>
                                     </div>
