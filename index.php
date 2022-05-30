@@ -219,7 +219,7 @@ $critica = "SELECT * FROM critica";
 
                                         <span><strong>Disponibles</strong>
 
-                                        <span class="class-price">$hola,450</span>
+                                        <span class="class-price">$600,450</span>
 
                                         <p class="mt-3">relleno de aguacate, salmón, tuna y king crab, envuelto en masa de arroz🍚🥑🦀</p>
                                     </div>
