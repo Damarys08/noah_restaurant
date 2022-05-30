@@ -3,10 +3,6 @@ include("mostrarDatos/conexion.php");
 $critica = "SELECT * FROM critica";
 ?>
 
-
-
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
