@@ -191,10 +191,6 @@ $critica = "SELECT * FROM critica";
                </div>
      </section>
 
-
-
-
-
      <!--PLATILLOS -->
      <section class="class section" id="class">
                <div class="container">
