@@ -83,7 +83,7 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])){
                   <thead>
                     <tr>
                       <th>#</th>
-                      <th>peliculas</th>
+                      <th>Nombre del producto</th>
                       <th>Foto</th>
                       <th>Precio</th>
                       <th>Cantidad</th>
@@ -113,13 +113,13 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])){
                                         <img src="cinecss2/imagenes/not-found.jpg" width="35">
                                     <?php }?>
                                 </td>
-                                <td><?php print $value['precio']  ?> PEN</td>
+                                <td><?php print $value['precio']  ?> $$</td>
                                 <td>
                                 <input type="hidden" name="id"  value="<?php print $value['id'] ?>">
                                     <input type="text" name="cantidad" class="form-control u-size-100" value="<?php print $value['cantidad'] ?>">
                                 </td>
                                 <td>
-                                    <?php print $total  ?> PEN
+                                    <?php print $total  ?> $$
                                 </td>
                                 <td>
                                     <button type="submit" class="btn btn-success btn-xs">
@@ -150,7 +150,7 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])){
                 <tfoot>
                         <tr>
                             <td colspan="5" class="text-right">Total</td>
-                            <td><?php print calcularTotal(); ?> PEN</td>
+                            <td><?php print calcularTotal(); ?> $</td>
                             <td></td>
                         </tr>
 
@@ -167,6 +167,14 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])){
                     <div class="pull-right">
                         <a href="finalizar.php" class="btn btn-success">Finalizar Compra</a>
                     </div>
+                    
+                    <div class="pull-right">
+                <a href="javascript:;" id="btnImprimir" style= "margin: 0px 10px 20px 10px;" class="btn btn-danger hidden-print">Imprimir una factura</a>
+
+            </div>
+
+  
+
             </div>
 
             <?php
@@ -181,6 +189,14 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])){
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="cinecss2/js/jquery.min.js"></script>
     <script src="cinecss2/js/bootstrap.min.js"></script>
+    <script>
+        $('#btnImprimir').on('click',function(){
 
+            window.print();
+            return false;
+
+        })
+                        
+    </script>
   </body>
 </html>
