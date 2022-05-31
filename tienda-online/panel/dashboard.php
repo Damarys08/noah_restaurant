@@ -9,8 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Noah Restaurant
-</title>
+    <title>Noah Restaurant</title>
+
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="../cinecss2/css/bootstrap.min.css">
@@ -29,8 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Noah Restaurant
-</a>
+          <a class="navbar-brand" href="index.php">Noah Restaurant</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
@@ -48,7 +47,7 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="http://localhost/noah/noah_restaurant/tienda-online/panel/">Salir</a></li>
+                    <li><a href="../../../tienda-online/panel/">Salir</a></li>
                 </ul>
             </li>
           </ul>

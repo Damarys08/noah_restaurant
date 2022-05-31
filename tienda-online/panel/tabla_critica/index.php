@@ -17,55 +17,52 @@ $critica = "SELECT * FROM critica";
 	
 	<link rel="stylesheet" href="css/style.css">
 
+<!-- favicon -->
+<link rel="icon" href="../../../images/favicon.ico">
+
+<!-- Script icono -->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+	<!-- LINKS -->
+     <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+     <link rel="stylesheet" href="../../../css/font-awesome.min.css">
+     <link rel="stylesheet" href="../../../css/aos.css">
+
+	 <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+     <link rel="stylesheet" href="../../../css/font-awesome.min.css">
+     <link rel="stylesheet" href="../../../css/aos.css">
+
+     <!-- MAIN CSS -->
+	 <link rel="stylesheet" href="../../../css/tooplate-gymso-style.css">
 	</head>
 	<body>
 
-<!-- MENU BAR -->
-<!-- <nav class="navbar navbar-expand-lg fixed-top">
-	<div class="container">
 
-		<a class="navbar-brand" href="index.php">Noah Restaurant</a>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-			aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+   <!-- MENU BAR -->
+   <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
 
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ml-lg-auto">
-				<li class="nav-item">
-					<a href="#home" class="nav-link smoothScroll">Inicio</a>
-				</li>
+            <a class="navbar-brand" href="../dashboard.php"><i class='fas fa-arrow-left'></i> Volver a la página administrativa</a>
 
-				<li class="nav-item">
-					<a href="#feature" class="nav-link smoothScroll">Horarios</a>
-				</li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-				<li class="nav-item">
-					<a href="#about" class="nav-link smoothScroll">Sobre Nosotros</a>
-				</li>
+            
 
-				<li class="nav-item">
-					<a href="#class" class="nav-link smoothScroll">Principales</a>
-				</li>
+                <ul class="social-icon ml-lg-3">
+                    <li><a href="https://www.facebook.com/NoahSantiago/" class="fa fa-facebook"></a></li>
+                    <li><a href="#https://twitter.com/restaurantnoah" class="fa fa-twitter"></a></li>
+                    <li><a href="#https://www.instagram.com/noahrestaurant/?hl=es-la" class="fa fa-instagram"></a></li>
+                    <li><a href="" class="fa-solid fa-basket-shopping"></a></li>
+                </ul>
+            </div>
 
-	  
-				<li class="nav-item">
-					<a href="#contact" class="nav-link smoothScroll">Contacto</a>
-				</li>
-			</ul>
+        </div>
+    </nav>
 
-			<ul class="social-icon ml-lg-3">
-				<li><a href="https://www.facebook.com/NoahSantiago/" class="fa fa-facebook"></a></li>
-				<li><a href="#https://twitter.com/restaurantnoah" class="fa fa-twitter"></a></li>
-				<li><a href="#https://www.instagram.com/noahrestaurant/?hl=es-la" class="fa fa-instagram"></a></li>
-				<li><a href="" class="fa-solid fa-basket-shopping"></a></li>
-			</ul>
-		</div>
-
-	</div>
-</nav>
- -->
 
 	<section class="ftco-section">
 		<div class="container">

@@ -33,7 +33,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
-          <li><a href="../tabla_critica/index.html" class="btn">CrÍticas</a>
+          <li><a href="../tabla_critica/index.php" class="btn">CrÍticas</a>
             </li>
             <li>
               <a href="../pedidos/index.php" class="btn">Pedidos</a>
@@ -47,7 +47,7 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                <li><a href="http://localhost/noah/noah_restaurant/tienda-online/panel/">Salir</a></li>
+                <li><a href="../../../tienda-online/panel/">Salir</a></li>
                 </ul>
             </li>
           </ul>
