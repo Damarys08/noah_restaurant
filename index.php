@@ -1,7 +1,8 @@
 <?php
-include("mostrarDatos/conexion.php");
+include("conexion.php");
 $critica = "SELECT * FROM critica";
 ?>
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -268,12 +269,13 @@ $critica = "SELECT * FROM critica";
                     <div class="ml-auto col-lg-5 col-md-6 col-12">
                         <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Escribenos tú crítica.</h2>
 
-                        <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
-                            <input type="text" class="form-control" name="cf-name" placeholder="Nombre">
+                        <form action="insertar.php" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
 
-                            <input type="email" class="form-control" name="cf-email" placeholder="Email">
+                            <input name="nombre" type="text" class="form-control" placeholder="Nombre">
 
-                            <textarea class="form-control" rows="5" name="cf-message" placeholder="Mensaje"></textarea>
+                            <input name="email" type="text" class="form-control" placeholder="Email">
+
+                            <input name="mensaje" type="text" class="form-control" rows="5" placeholder="Mensaje">
 
                             <button type="submit" class="form-control" id="submit-button" name="submit">Enviar mensaje</button>
                         </form>

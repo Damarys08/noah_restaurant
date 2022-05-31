@@ -1,7 +1,13 @@
-<!doctype html>
-<html lang="en">
+<?php
+include("../../../conexion.php");
+$critica = "SELECT * FROM critica";
+?>
+
+
+<!DOCTYPE html>
+<html lang="es">
   <head>
-  	<title>Table 09</title>
+  	<title>Sección Critica</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -65,7 +71,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Table #09</h2>
+					<h2 class="heading-section">Sección Crítica</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -74,25 +80,23 @@
 						<table class="table table-striped">
 						  <thead>
 						    <tr>
-						      <th>Invoce</th>
-						      <th>Customer</th>
-						      <th>Ship</th>
-						      <th>Price</th>
-						      <th>Pruchased Price</th>
-						      <th>Status</th>
+						      <th>Nombre</th>
+						      <th>Email</th>
+						      <th>Mensaje</th>
 						    </tr>
 						  </thead>
+						  <?php $resultado = mysqli_query($conexion, $critica);
+        					while ($row = mysqli_fetch_assoc($resultado)) { ?>
 						  <tbody>
 						    <tr>
-						      <th scope="row">1001</th>
-						      <td>Mark Otto</td>
-						      <td>Japan</td>
-						      <td>$3000</td>
-						      <td>$1200</td>
-						      <td><a href="#" class="btn btn-success">Progress</a></td>
+						      <th scope="row"><?php echo $row["nombre"]; ?></th>
+						      <td><?php echo $row["email"]; ?></td>
+						      <td><?php echo $row["mensaje"]; ?></td>
 						    </tr>
+							<?php }
+        					mysqli_free_result($resultado);?>
 
-						    <tr>
+						    <!-- <tr>
 						      <th scope="row">1001</th>
 						      <td>Mark Otto</td>
 						      <td>Japan</td>
@@ -152,7 +156,7 @@
 						      <td>$3000</td>
 						      <td>$1200</td>
 						      <td><a href="#" class="btn btn-success">Progress</a></td>
-						    </tr>
+						    </tr> -->
 						  </tbody>
 						</table>
 					</div>
@@ -168,4 +172,3 @@
 
 	</body>
 </html>
-
