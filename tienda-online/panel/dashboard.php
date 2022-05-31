@@ -99,7 +99,7 @@
                       <td><?php print $c?></td>
                       <td><?php print $item['nombre'].' '.$item['apellidos']?></td>
                       <td><?php print $item['id']?></td>
-                      <td><?php print $item['total']?> PEN</td>
+                      <td><?php print $item['total']?> $</td>
                       <td><?php print $item['fecha']?></td>
                        
                       <td class="text-center">
